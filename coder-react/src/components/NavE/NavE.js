@@ -1,4 +1,4 @@
-import CartE from './Cart/Cart' 
+import CartE from '../Cart/Cart' 
 const NavE = () => {
     return(
 

@@ -1,5 +1,5 @@
 import './App.css';
-import NavE from './components/NavE';
+import NavE from './components/NavE/NavE';
 import ItemListE from './components/ItemsList/ItemList';
 
 function App() {
