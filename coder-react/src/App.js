@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import NavE from './components/NavE';
+import ItemListE from './components/ItemsList/ItemList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<NavE/>
+<ItemListE greeting={'Bienvenidos a la 1era pre entrega'}/>
     </div>
   );
 }
